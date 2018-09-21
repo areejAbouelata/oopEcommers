@@ -1,0 +1,80 @@
+body {
+	background: #EEE;
+}
+ .navigation {
+
+ }
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 100%;
+ 	margin-right: 50px;
+
+}
+
+.navigation li {
+	display: block;
+	width: 100%;
+}
+
+.navigation li a , #activeh {
+    display: block;
+    color: #000;
+    padding: 8px 40px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+ .navigation li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navigation li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#activea {
+	width: 20%
+}
+.catalogue_wraper {
+    width: 70%;
+    float: right;
+    margin-right: 20px;
+    border-bottom: 1px gray dashed ;
+    
+}
+.catalogue_wraper_left {
+    width: 18%;
+    display: inline-block;
+    margin-top: -20px;
+     
+}
+.catalogue_wraper_left img {
+margin-top: 30px;
+}
+.catalogue_wraper_right {
+    width: 60%;
+        display: inline-block;
+
+
+}
+.pagination  li{
+
+padding-right: 10px;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+
+}
